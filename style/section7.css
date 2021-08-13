@@ -1,0 +1,69 @@
+.section7{
+    height: 70vh;
+    background :linear-gradient(90deg, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.74)), url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    
+  }
+
+  .swiper-slide{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+        align-items: center;
+      flex-direction: column !important;
+      
+  }
+  .swiper-slide .img7{
+    width: 90px;
+    height: 90px;
+    background-color: rgba(224, 224, 224, 0.596);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      
+  }
+
+  .text7{
+      color: white;
+  }
+  .proff7{
+      color: white;
+      padding: 10px 0px;
+      font-size: 14px;
+  }
+  .lorem7{
+      color:white;
+      width: 60%;
+      text-align: center;
+
+  }
+  .swiper-slide .img7 img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.swiper-pagination-bullet{
+    padding: 5px;
+    background-color: rgb(47, 96, 255);
+}
+ .swiper-pagination-bullet-active{
+    
+    
+ }

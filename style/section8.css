@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --fnt: 'Poppins';
+    --open:  'Open Sans', sans-serif;
+    --bg:rgb(30, 31, 43);
+    --mc: #106eea;
+    --bgw: #fcfbfd;
+    --rbt:'Roboto', sans-serif;
+    --gry:#444444;
+    --bg3:#f6f9fe;
+    --nlu:#106eea;
+    --blu:#e7f1fd;
+}
+
+.section8{
+    padding: 30px 0px;
+    height: max-content;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+}
+.section8 *{
+    font-family: var(--open);
+    
+}
+.waves{
+    position: absolute;
+    
+    bottom: 0 !important;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -23;
+
+}
+.toggler{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.head8 *{
+    font-size: 16px;
+    font-family: var(--open) !important;
+    color: #5e5e5e;
+}
+
+.square{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(30deg, #4c1fac, #e4059c) ;
+    border-radius: 67% 33% 70% 30% / 39% 33% 67% 61% ;
+    top: 40%;
+    left: 60%;
+    transform: translateY(-50%);
+    background-color: aqua;
+    z-index: -23;
+
+}
+.head8{
+    padding: 10px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+
+}
+.head8 .text{
+    padding-left: 10px;
+}
+
+.covered .p{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.covered{
+    height: 0px;
+    overflow: hidden;
+    
+    border-bottom: 1px solid #96b7f5b9;
+    background-color: #f6f9fece;
+}
+.coveract{
+    height: 80px !important;
+    max-height: min-content !important;
+    transition: .7s;   
+}
+.toggler{
+    padding: 20px 0px;
+}
+
+
+.iconky{
+    transform: rotate(40deg) !important;
+    transition: .7s;
+}

@@ -1,0 +1,342 @@
+
+
+
+.headnav{
+    height: 40px;
+    background-color:var(--mc);
+    font-family: var(--open);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.none{
+    height: 0px;
+    transition: .1s;
+}
+.mail_tel{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+}
+.mail_tel .tels{
+    font-size: 14px !important;
+}
+.mail_tel  a{
+    color: white;
+    font-size: 13px;
+    
+    font-family: var(--open);
+    text-decoration: none;
+}
+
+.mail_tel div i{
+    font-size: 13px;
+}
+.icons_top i{
+    color: rgba(255, 255, 255, 0.685);
+    margin: 0px 5px;
+    
+    outline: none;
+}
+.navibig{
+    height: 90px;
+    
+    transition: .4s;
+}
+.navimin{
+    transition: .4s;
+    position: fixed ;
+    z-index: 100 !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70px !important;
+    box-shadow: 0px 0px  10px rgb(212, 212, 212);
+}
+
+.navi{
+      
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    position: relative;
+    text-transform: capitalize;
+}
+.logo > h1::after{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    bottom: 11px;
+    right: -7px;
+    background-color: var(--mc);
+    border-radius: 50%;
+}
+
+.menu a{
+    color: var(--bg);
+    font-family: var(--open) !important;
+    font-weight: 700;
+    margin: 0px 15px;
+    text-transform: capitalize;
+    position: relative;
+    padding: 5px 0px;
+    font-size: 14px;
+    
+    
+}
+.current{
+    color: var(--mc) !important;
+}
+
+.current > span{
+    left: -1% ;
+    width: 99% !important;
+    transition: 0.5s;
+}
+
+
+.menu a{
+    overflow: hidden;
+}
+.menu a>span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1.5px;
+    background-color: var(--mc);
+    
+}
+.menu a:hover > span{
+    left: 0%;
+    width: 100%;
+    transition: 0.5s;
+} 
+.menu{
+    position: relative;
+}
+.menu a:hover{
+    color: var(--mc);
+    transition: .4s;
+}
+.main{
+    
+    background: url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    height: 75vh;
+    position: relative;
+    
+}
+.main>span:first-child{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.548);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dropdr{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    padding: 10px 0px;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    box-shadow: 0px 0px 4px rgb(139, 139, 139);
+    top: 28px;
+    left: 68%;
+    opacity: 0;
+    
+    transform: translateX(-20%);
+    pointer-events: none;
+    
+}
+#dropdown:hover +.dropdr{
+    pointer-events: all !important;
+    opacity: 1;
+    transform: translateX(0%);
+    transition: .4s;
+    z-index: 1;
+}
+
+#dropdown:hover i{
+    transform: rotate(90deg);
+    transition: 1s;
+    
+}
+.dropdr:hover {
+    opacity: 1;
+    transform: translateX(0%);
+    z-index: 1;
+}
+.dropdr li {
+    background-color: rgb(255, 255, 255);
+    padding: 7px 0px;
+}
+
+.dropdr li a{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin: 1px 0px;
+    padding: 6px 20px;
+}
+
+.main span.bizblau{
+    color: var(--mc);
+}
+
+
+
+.mainp{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+.mainh{
+    font-size: 45px;
+    font-weight: 700;
+}
+.btns{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.btns button{
+    padding: 10px 20px;
+    background-color: var(--mc);
+    font-family: var(--fnt);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    
+    border: none;
+    cursor: pointer;
+}
+.btns button:hover{
+    background-color: #074eac;
+    transition: .4s;
+}
+.btns button:active{
+    background-color: #227ef7;
+    transition: .1s;
+}
+.btns a{
+    padding: 0px 20px;
+    color: var(--bg);
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    
+    text-transform: capitalize;
+    
+    
+    
+}
+.btns a span{
+    font-family: var(--fnt);
+    font-size: 15px !important;
+    font-weight: 600;
+}
+.btns a i{
+    color: var(--mc);
+    font-weight: 100;
+    font-size: 29px;
+    vertical-align:middle;
+}
+
+
+/* birinshi section tawsildi */
+/* birinshi section tawsildi */
+/* birinshi section tawsildi */
+/* birinshi section tawsildi */
+/* birinshi section tawsildi */
+
+
+section.sect2{
+    height: 60vh;
+    background-color: var(--bgw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sect2 > div{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.171);
+}
+
+.cardbul{
+    padding: 25px 20px;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardbul::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:var(--mc);
+    top: 100%;
+    opacity: 0.2;
+    left: 0;
+    z-index: 0;
+}
+.cardbul:hover::after{
+    top: 0;
+    transition: 0.4s;
+}
+
+.cardbul:hover::after>i{
+    color: white;
+}
+
+.cardbul .icon i{
+    color: var(--mc);
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+.cardbul .icon{
+    padding: 10px 0px;
+    
+}
+
+.cardbul > h1 {
+    font-size: 18px;
+    padding: 10px 0px;
+    
+}
+
+.cardbul > p {
+    padding-right: 5px 0px;
+    
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    line-height: 1.7em;
+    letter-spacing: 1.2px;
+}
